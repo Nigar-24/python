@@ -1,0 +1,4 @@
+y=int(input("birth year"))
+x=["monkey","rooster", "dog", 'pig',"rat","ox","tiger","rabbit","dragon","snake","horse","sheep"]
+q=y%12
+print(str(y) + " is the year of the " +str(x[q]) + " year")
