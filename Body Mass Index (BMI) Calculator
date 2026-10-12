@@ -1,0 +1,11 @@
+w=int(input("weight in kilograms"))
+h=int(input("height in metres"))
+BMI=w/(h*h)
+if BMI <= 18.5:
+    print(BMI, "underweight")
+elif 18.5 <= BMI <= 24.9:
+    print(BMI, "normal weight")
+elif 25.0 <= BMI <= 29.9:
+    print(BMI, "overweight")
+else:
+    print(BMI, "obese")
